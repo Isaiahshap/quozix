@@ -1,0 +1,121 @@
+[
+  {
+    "id": "r001",
+    "name": "BBC World Service",
+    "country": "United Kingdom",
+    "countryCode": "GB",
+    "language": "english",
+    "tags": ["news", "world", "international"],
+    "streamUrl": "https://stream.live.vc.bbcmedia.co.uk/bbc_world_service",
+    "favicon": "https://www.bbc.co.uk/favicon.ico",
+    "bitrate": 128,
+    "codec": "MP3"
+  },
+  {
+    "id": "r002",
+    "name": "Deutsche Welle",
+    "country": "Germany",
+    "countryCode": "DE",
+    "language": "english",
+    "tags": ["news", "international", "german"],
+    "streamUrl": "https://dwaudiostream.ic.llnwd.net/hls/live/702547/dwstream05/index.m3u8",
+    "favicon": "https://www.dw.com/favicon.ico",
+    "bitrate": 128,
+    "codec": "AAC"
+  },
+  {
+    "id": "r003",
+    "name": "France 24 Radio",
+    "country": "France",
+    "countryCode": "FR",
+    "language": "english",
+    "tags": ["news", "international", "french"],
+    "streamUrl": "https://stream.france24.com/hls/live/2037326/F24_EN_HI_HLS/master.m3u8",
+    "favicon": "https://www.france24.com/favicon.ico",
+    "bitrate": 128,
+    "codec": "AAC"
+  },
+  {
+    "id": "r004",
+    "name": "Radio Free Europe",
+    "country": "United States",
+    "countryCode": "US",
+    "language": "english",
+    "tags": ["news", "europe", "democracy"],
+    "streamUrl": "https://rfe-aac-128k.ic.llnwd.net/stream/rfe-aac-128k",
+    "favicon": "https://www.rferl.org/favicon.ico",
+    "bitrate": 128,
+    "codec": "AAC"
+  },
+  {
+    "id": "r005",
+    "name": "Al Jazeera Radio",
+    "country": "Qatar",
+    "countryCode": "QA",
+    "language": "arabic",
+    "tags": ["news", "middle east", "arabic"],
+    "streamUrl": "https://live-hls-audio-aja.getaj.net/AJA/03.m3u8",
+    "favicon": "https://www.aljazeera.com/favicon.ico",
+    "bitrate": 128,
+    "codec": "AAC"
+  },
+  {
+    "id": "r006",
+    "name": "KQED Public Radio",
+    "country": "United States",
+    "countryCode": "US",
+    "language": "english",
+    "tags": ["public", "news", "arts"],
+    "streamUrl": "https://streams.kqed.org/kqedradio",
+    "favicon": "https://www.kqed.org/favicon.ico",
+    "bitrate": 128,
+    "codec": "MP3"
+  },
+  {
+    "id": "r007",
+    "name": "NHK World Radio Japan",
+    "country": "Japan",
+    "countryCode": "JP",
+    "language": "english",
+    "tags": ["news", "asia", "japanese"],
+    "streamUrl": "https://nhkworld.webcdn.stream.ne.jp/www11/nhkworld-tv/english/ios/main/playlist.m3u8",
+    "favicon": "https://www3.nhk.or.jp/nhkworld/favicon.ico",
+    "bitrate": 64,
+    "codec": "AAC"
+  },
+  {
+    "id": "r008",
+    "name": "Radio Sputnik",
+    "country": "Russia",
+    "countryCode": "RU",
+    "language": "english",
+    "tags": ["news", "russia", "politics"],
+    "streamUrl": "https://n2.sputnik-radio.ru/en",
+    "bitrate": 128,
+    "codec": "MP3"
+  },
+  {
+    "id": "r009",
+    "name": "Voice of America",
+    "country": "United States",
+    "countryCode": "US",
+    "language": "english",
+    "tags": ["news", "international", "usa"],
+    "streamUrl": "https://sslvoa.akacast.akamaistream.net/7/931/492929/v1/ibnlive.akacast.akamaistream.net/voa_english",
+    "favicon": "https://www.voanews.com/favicon.ico",
+    "bitrate": 64,
+    "codec": "MP3"
+  },
+  {
+    "id": "r010",
+    "name": "Radio Australia",
+    "country": "Australia",
+    "countryCode": "AU",
+    "language": "english",
+    "tags": ["news", "pacific", "australia"],
+    "streamUrl": "https://mediabank.abc.net.au/content/wm2/abc_rn_aac_hi.m3u8",
+    "favicon": "https://www.abc.net.au/favicon.ico",
+    "bitrate": 128,
+    "codec": "AAC"
+  }
+]

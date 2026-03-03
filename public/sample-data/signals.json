@@ -1,0 +1,90 @@
+[
+  {
+    "id": "s001",
+    "title": "Diplomatic talks resume amid regional tensions",
+    "url": "https://example.com/news/1",
+    "source": "reuters.com",
+    "domain": "reuters.com",
+    "publishedAt": "2026-03-03T10:00:00Z",
+    "geo": { "lat": 35.69, "lng": 51.39, "label": "Tehran, Iran" },
+    "keywords": ["diplomacy", "conflict", "military"],
+    "sourceCount": 5
+  },
+  {
+    "id": "s002",
+    "title": "Earthquake strikes Southwestern region, rescue operations underway",
+    "url": "https://example.com/news/2",
+    "source": "bbc.com",
+    "domain": "bbc.com",
+    "publishedAt": "2026-03-03T08:30:00Z",
+    "geo": { "lat": 37.09, "lng": 35.24, "label": "Southern Turkey" },
+    "keywords": ["earthquake", "disaster", "rescue"],
+    "sourceCount": 12
+  },
+  {
+    "id": "s003",
+    "title": "New sanctions package announced targeting energy sector",
+    "url": "https://example.com/news/3",
+    "source": "ft.com",
+    "domain": "ft.com",
+    "publishedAt": "2026-03-03T07:15:00Z",
+    "geo": { "lat": 55.75, "lng": 37.62, "label": "Moscow, Russia" },
+    "keywords": ["sanctions", "energy", "economy"],
+    "sourceCount": 8
+  },
+  {
+    "id": "s004",
+    "title": "Naval exercise concludes in South China Sea",
+    "url": "https://example.com/news/4",
+    "source": "reuters.com",
+    "domain": "reuters.com",
+    "publishedAt": "2026-03-03T06:45:00Z",
+    "geo": { "lat": 15.0, "lng": 114.0, "label": "South China Sea" },
+    "keywords": ["military", "naval", "exercise"],
+    "sourceCount": 4
+  },
+  {
+    "id": "s005",
+    "title": "Protests erupt in capital over election results",
+    "url": "https://example.com/news/5",
+    "source": "aljazeera.com",
+    "domain": "aljazeera.com",
+    "publishedAt": "2026-03-03T05:20:00Z",
+    "geo": { "lat": 50.45, "lng": 30.52, "label": "Kyiv, Ukraine" },
+    "keywords": ["protest", "election", "politics"],
+    "sourceCount": 7
+  },
+  {
+    "id": "s006",
+    "title": "Drone activity reported near disputed border region",
+    "url": "https://example.com/news/6",
+    "source": "defensenews.com",
+    "domain": "defensenews.com",
+    "publishedAt": "2026-03-02T22:00:00Z",
+    "geo": { "lat": 33.22, "lng": 43.68, "label": "Iraq" },
+    "keywords": ["drone", "military", "border"],
+    "sourceCount": 3
+  },
+  {
+    "id": "s007",
+    "title": "Major cyberattack disrupts critical infrastructure",
+    "url": "https://example.com/news/7",
+    "source": "wired.com",
+    "domain": "wired.com",
+    "publishedAt": "2026-03-02T18:00:00Z",
+    "geo": { "lat": 38.9, "lng": -77.04, "label": "Washington, US" },
+    "keywords": ["cyber", "infrastructure", "attack"],
+    "sourceCount": 6
+  },
+  {
+    "id": "s008",
+    "title": "Aid convoy reaches conflict zone after week-long delay",
+    "url": "https://example.com/news/8",
+    "source": "un.org",
+    "domain": "un.org",
+    "publishedAt": "2026-03-02T14:30:00Z",
+    "geo": { "lat": 15.55, "lng": 48.52, "label": "Yemen" },
+    "keywords": ["humanitarian", "aid", "conflict"],
+    "sourceCount": 9
+  }
+]

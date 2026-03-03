@@ -1,0 +1,78 @@
+[
+  {
+    "id": "tv001",
+    "name": "Al Jazeera English",
+    "countryCode": "QA",
+    "languages": ["english"],
+    "categories": ["News"],
+    "logoUrl": "https://i.imgur.com/bEi3O1H.png",
+    "streamUrl": "https://live-hls-use-aje.getaj.net/AJE/01.m3u8",
+    "groupTitle": "News"
+  },
+  {
+    "id": "tv002",
+    "name": "DW English",
+    "countryCode": "DE",
+    "languages": ["english"],
+    "categories": ["News"],
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/DW_Logo_2012.svg/240px-DW_Logo_2012.svg.png",
+    "streamUrl": "https://dwaudiostream.ic.llnwd.net/hls/live/702547/dwstream07/index.m3u8",
+    "groupTitle": "News"
+  },
+  {
+    "id": "tv003",
+    "name": "France 24 English",
+    "countryCode": "FR",
+    "languages": ["english"],
+    "categories": ["News"],
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/France_24_logo.svg/240px-France_24_logo.svg.png",
+    "streamUrl": "https://stream.france24.com/hls/live/2037326/F24_EN_HI_HLS/master.m3u8",
+    "groupTitle": "News"
+  },
+  {
+    "id": "tv004",
+    "name": "RT English",
+    "countryCode": "RU",
+    "languages": ["english"],
+    "categories": ["News"],
+    "streamUrl": "https://rt-news.secure.footprint.net/1105.m3u8",
+    "groupTitle": "News"
+  },
+  {
+    "id": "tv005",
+    "name": "NASA TV",
+    "countryCode": "US",
+    "languages": ["english"],
+    "categories": ["Science"],
+    "logoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/200px-NASA_logo.svg.png",
+    "streamUrl": "https://ntv1.akamaized.net/hls/live/2014075/NASA-NTV1-HLS/master.m3u8",
+    "groupTitle": "Science"
+  },
+  {
+    "id": "tv006",
+    "name": "CGTN English",
+    "countryCode": "CN",
+    "languages": ["english"],
+    "categories": ["News"],
+    "streamUrl": "https://news.cgtn.com/resource/live/english/cgtn-news.m3u8",
+    "groupTitle": "News"
+  },
+  {
+    "id": "tv007",
+    "name": "TRT World",
+    "countryCode": "TR",
+    "languages": ["english"],
+    "categories": ["News"],
+    "streamUrl": "https://trtworld.live.trt.com.tr/hls/live/682275/trtworld/master.m3u8",
+    "groupTitle": "News"
+  },
+  {
+    "id": "tv008",
+    "name": "ABC News 24 Australia",
+    "countryCode": "AU",
+    "languages": ["english"],
+    "categories": ["News"],
+    "streamUrl": "https://abc-iview-mediapackagestreams-2.akamaized.net/out/v1/5290e6f3be534fcc979d2c3e40c850e8/index.m3u8",
+    "groupTitle": "News"
+  }
+]
