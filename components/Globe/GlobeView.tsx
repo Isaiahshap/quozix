@@ -94,13 +94,24 @@ export const GlobeView = forwardRef<GlobeViewHandle, GlobeViewProps>(
           .atmosphereColor("rgba(0,180,255,0.15)")
           .atmosphereAltitude(0.15);
 
-        globe.controls().autoRotate = true;
-        globe.controls().autoRotateSpeed = 0.35;
-        globe.controls().enableZoom = true;
-        globe.controls().minDistance = 180;
-        globe.controls().maxDistance = 700;
-        globe.controls().enableDamping = true;
-        globe.controls().dampingFactor = 0.1;
+        const controls = globe.controls();
+        controls.autoRotate = true;
+        controls.autoRotateSpeed = 0.35;
+        controls.enableZoom = true;
+        controls.maxDistance = 700;
+        controls.enableDamping = true;
+        controls.dampingFactor = 0.1;
+
+        // Deeper pinch zoom on mobile (smaller minDistance = camera can move closer)
+        const mobileMq = window.matchMedia("(max-width: 639px)");
+        const applyZoomLimits = () => {
+          const mobile = mobileMq.matches;
+          controls.minDistance = mobile ? 78 : 180;
+          // Slightly faster dolly on touch viewports
+          controls.zoomSpeed = mobile ? 1.4 : 1;
+        };
+        applyZoomLimits();
+        mobileMq.addEventListener("change", applyZoomLimits);
 
         // Stop auto-rotate on user interaction, restart after idle
         let rotateTimer: ReturnType<typeof setTimeout> | null = null;
@@ -149,6 +160,7 @@ export const GlobeView = forwardRef<GlobeViewHandle, GlobeViewProps>(
         setLoading(false);
 
         return () => {
+          mobileMq.removeEventListener("change", applyZoomLimits);
           ro.disconnect();
           if (rotateTimer) clearTimeout(rotateTimer);
           // eslint-disable-next-line @typescript-eslint/no-explicit-any

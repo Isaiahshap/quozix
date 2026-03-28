@@ -33,14 +33,21 @@ export const metadata: Metadata = {
       "Stream live news TV channels and radio stations from every country on Earth, mapped to an interactive 3D globe. Free and open-source.",
     type: "website",
     url: "https://quozix.app",
-    images: ["/og-image.png"],
+    images: [
+      {
+        url: "/og.png",
+        width: 1492,
+        height: 568,
+        alt: "Quozix News — Live World News TV & Radio Globe",
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: "Quozix News — Live World News TV & Radio Globe",
     description:
       "Every news TV channel and radio station on Earth, on a 3D globe. Free, open-source.",
-    images: ["/og-image.png"],
+    images: ["/og.png"],
   },
 };
 
