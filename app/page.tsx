@@ -630,22 +630,45 @@ function DisclaimerModal({ onClose }: { onClose: () => void }) {
             on site&rdquo; fallback link.
           </p>
           <p>
-            Quozix News is open source and free for anyone to use. No data is collected, no
-            accounts required, no ads.
+            Quozix News is{" "}
+            <a
+              href="https://github.com/Isaiahshap/quozix"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-[#00d4ff] hover:underline"
+            >
+              open source on GitHub
+            </a>{" "}
+            (MIT). It&apos;s free for anyone to use, and I&apos;m open to issues, pull requests,
+            and edits—contributions are welcome.
+          </p>
+          <p className="text-xs">
+            No data is collected, no accounts required, no ads.
           </p>
         </div>
 
-        <div className="pt-1 border-t border-[#1e2433]/60 space-y-2">
-          <p className="text-xs text-[#475569]">
-            Questions, suggestions, or want to stay updated?
-          </p>
+        <div className="pt-1 border-t border-[#1e2433]/60 space-y-3">
           <a
-            href="mailto:yeshayashapiro@gmail.com"
-            className="inline-flex items-center gap-1.5 text-xs text-[#00d4ff] hover:underline"
+            href="https://github.com/Isaiahshap/quozix"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1.5 text-xs text-[#00d4ff] hover:underline font-medium"
           >
             <ExternalLink className="w-3 h-3" />
-            yeshayashapiro@gmail.com
+            github.com/Isaiahshap/quozix
           </a>
+          <div>
+            <p className="text-xs text-[#475569] mb-1.5">
+              Questions, suggestions, or want to stay updated?
+            </p>
+            <a
+              href="mailto:yeshayashapiro@gmail.com"
+              className="inline-flex items-center gap-1.5 text-xs text-[#00d4ff] hover:underline"
+            >
+              <ExternalLink className="w-3 h-3" />
+              yeshayashapiro@gmail.com
+            </a>
+          </div>
         </div>
       </motion.div>
     </motion.div>
