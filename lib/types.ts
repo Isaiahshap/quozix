@@ -7,6 +7,7 @@ export interface StreamChannel {
   logoUrl?: string;
   streamUrl: string;
   groupTitle?: string;
+  website?: string;
 }
 
 export interface RadioStation {
@@ -40,10 +41,12 @@ export interface Signal {
 export interface GlobePoint {
   lat: number;
   lng: number;
-  type: "signal" | "air" | "stream" | "radio";
+  type: "signal" | "air" | "stream" | "radio" | "tv" | "both";
   payloadId: string;
   label?: string;
   intensity?: number;
+  tvCount?: number;
+  radioCount?: number;
 }
 
 export interface GlobeArc {

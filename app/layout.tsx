@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Space_Grotesk, Inter } from "next/font/google";
 import "./globals.css";
-import { AppShell } from "@/components/Shell/AppShell";
-import { ToastProvider } from "@/components/UI/Toast";
 
 const spaceGrotesk = Space_Grotesk({
   subsets: ["latin"],
@@ -19,14 +17,28 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://quozix.app"),
-  title: "Quozix — OSINT Media Globe",
+  title: "Quozix News — Live World News TV & Radio Globe",
   description:
-    "A zero-backend OSINT-style intelligence dashboard: 3D globe, live TV streams, international radio, and open-source signals — entirely client-side.",
-  keywords: ["OSINT", "globe", "live TV", "radio", "signals", "news"],
+    "Stream live news TV channels and radio stations from every country on Earth, mapped to an interactive 3D globe. Free, open-source, and always on.",
+  keywords: [
+    "live news", "world news", "news TV channels", "news radio", "live streaming",
+    "international news", "IPTV news", "news globe", "global news", "breaking news live",
+    "free news streaming", "online news TV",
+  ],
+  authors: [{ name: "Yeshaya Shapiro", url: "mailto:yeshayashapiro@gmail.com" }],
   openGraph: {
-    title: "Quozix — OSINT Media Globe",
-    description: "Real-time OSINT dashboard: 3D globe, live TV, radio & signals",
+    title: "Quozix News — Live World News TV & Radio Globe",
+    description:
+      "Stream live news TV channels and radio stations from every country on Earth, mapped to an interactive 3D globe. Free and open-source.",
     type: "website",
+    url: "https://quozix.app",
+    images: ["/og-image.png"],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Quozix News — Live World News TV & Radio Globe",
+    description:
+      "Every news TV channel and radio station on Earth, on a 3D globe. Free, open-source.",
     images: ["/og-image.png"],
   },
 };
@@ -38,11 +50,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${spaceGrotesk.variable} ${inter.variable}`}>
-      <body>
-        <ToastProvider>
-          <AppShell>{children}</AppShell>
-        </ToastProvider>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

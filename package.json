@@ -4,6 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
+    "build:data": "node scripts/build-news-data.mjs",
+    "prebuild": "node scripts/build-news-data.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "eslint"
